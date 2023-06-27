@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bdd4e7;
+    background-image: linear-gradient(315deg, #bdd4e7 0%, #8693ab 74%);
+
+    height: 100vh;
+    width: 100vw;
+
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrap {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.input-wrap button{
+    height: 4rem;
+    width: 5rem;
+    border-radius: 4rem;
+}
+
+#inputText {
+    margin: 1rem;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+#inputText:hover {
+    filter: drop-shadow(0 0 15px white);
+}
+
+.output {
+    background-color: rgba(234, 234, 234, 1);
+    margin: 1rem;
+    padding: 1rem;
+    height: 50%;
+    border-radius: 10px;
+}
